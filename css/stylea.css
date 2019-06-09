@@ -1,0 +1,66 @@
+nav .grid_3{
+	text-align:center;
+	text-transform:uppercase;
+	background-color:#0C4DA2;
+	color:#ffffff;
+	padding:10px 0;
+}
+nav .grid_3 a{
+	color:white;
+}
+
+nav .grid_3:hover{
+	background-color:#0C4E16;
+}
+ #head h3{
+    font-size:30px;
+	color:steelblue;
+	text-align:center;
+}
+
+
+@keyframes myanim{
+	from{
+		background-image:url(../img/f1.jpg);
+	}
+	to{
+		background-image:url(../img/f2.jpg);
+	}
+}
+
+	#banner .grid_12{
+      width:940px;
+	  height:300px;
+	background-image:url(../img/f1.jpg);
+	animation-name:myanim;
+	animation-duration:10s;
+    margin-top:15px;
+	animation-timing-function:ease-in;
+	animation-delay:1s;
+	animation-iteration-count:infinite;
+	
+}
+footer{
+	width:100%;
+	height:100px;
+	background-color:#0C4DA2;
+	color:#ffffff;
+	text-align:center;
+}
+
+footer ul{
+	list-style-type:none;
+}
+
+footer ul li{
+	display:inline-block;
+}
+
+footer a{
+	color:#ffffff;
+}
+footer address{
+	margin-top:10px;
+}
+
+
